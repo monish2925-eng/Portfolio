@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monish | Cybersecurity Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <div class="logo">
+                <span class="logo-bracket">&lt;</span>
+                <span class="logo-text">BOT</span>
+                <span class="logo-bracket">/&gt;</span>
+            </div>
+            <button class="mobile-toggle" id="mobileToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+           <!-- <button id="themeToggle" class="theme-toggle">
+                <span class="sun">☀</span>
+                <span class="moon">🌙</span>
+            </button>-->
+            
+            
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="cyber-grid"></div>
+        <div class="container hero-container">
+            <div class="hero-content">
+                <div class="glitch-wrapper">
+                    <h1 class="hero-title glitch" data-text="MONISH">MONISH</h1>
+                </div>
+                <h2 class="hero-subtitle">
+                    <span class="typing-text" id="typingText"></span>
+                    <span class="cursor">|</span>
+                </h2>
+                <p class="hero-description">
+                    Breaking systems to build better security. Passionate about red teaming, ethical hacking, and 
+                    making the digital world safer one vulnerability at a time.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View Projects</a>
+                    <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                    <a href="resume.pdf" class="btn btn-outline" download>Download Resume</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="cyber-circle">
+                    <div class="orbit orbit-1"></div>
+                    <div class="orbit orbit-2"></div>
+                    <div class="orbit orbit-3"></div>
+                    <div class="center-core"></div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll Down</span>
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="section-number">01.</span> About Me
+                <div class="title-line"></div>
+            </h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-intro">
+                        Hey! I'm MONISH, a cybersecurity enthusiast and student on a mission to master the art 
+                        of ethical hacking and red teaming. My journey started with curiosity about how systems work, 
+                        and now I'm obsessed with finding vulnerabilities to make them more secure.
+                    </p>
+                    <p>
+                        Currently, I'm diving deep into penetration testing, Active Directory exploitation, and Linux 
+                        privilege escalation. I believe the best way to defend systems is to think like an attacker, 
+                        so I spend my days (and nights) breaking into systems legally, learning from CTF challenges, 
+                        and documenting everything I discover.
+                    </p>
+                    <p>
+                        I'm actively learning through platforms like TryHackMe, building my own homelab for practice, 
+                        and working towards certifications like CompTIA Security+ and eJPT. When I'm not hacking away, 
+                        I'm creating Python tools, writing security scripts, and contributing to the cybersecurity community 
+                        by sharing my knowledge and learning experiences.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <h3>100+</h3>
+                            <p>TryHackMe Rooms</p>
+                        </div>
+                        <div class="stat">
+                            <h3>15+</h3>
+                            <p>Security Tools</p>
+                        </div>
+                        <div class="stat">
+                            <h3>5+</h3>
+                            <p>CTF Challenges</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="image-frame">
+                        <div class="image-placeholder">
+                            <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="100" cy="70" r="30" fill="#00ff9f"/>
+                                <rect x="70" y="110" width="60" height="70" fill="#00ff9f"/>
+                                <rect x="60" y="110" width="15" height="50" fill="#00ff9f"/>
+                                <rect x="125" y="110" width="15" height="50" fill="#00ff9f"/>
+                            </svg>
+                        </div>
+                        <div class="frame-corner tl"></div>
+                        <div class="frame-corner tr"></div>
+                        <div class="frame-corner bl"></div>
+                        <div class="frame-corner br"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="section-number">02.</span> Skills & Technologies
+                <div class="title-line"></div>
+            </h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <div class="category-icon">🔐</div>
+                    <h3>Penetration Testing</h3>
+                    <ul class="skill-list">
+                        <li><span class="skill-bullet">▹</span> Web Application Testing</li>
+                        <li><span class="skill-bullet">▹</span> Network Scanning & Enumeration</li>
+                        <li><span class="skill-bullet">▹</span> OSINT & Reconnaissance</li>
+                        <li><span class="skill-bullet">▹</span> Exploitation Techniques</li>
+                        <li><span class="skill-bullet">▹</span> Post-Exploitation</li>
+                        <li><span class="skill-bullet">▹</span> Privilege Escalation</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <div class="category-icon">🛠️</div>
+                    <h3>Security Tools</h3>
+                    <ul class="skill-list">
+                        <li><span class="skill-bullet">▹</span> Nmap & Masscan</li>
+                        <li><span class="skill-bullet">▹</span> Burp Suite & OWASP ZAP</li>
+                        <li><span class="skill-bullet">▹</span> Metasploit Framework</li>
+                        <li><span class="skill-bullet">▹</span> Wireshark & tcpdump</li>
+                        <li><span class="skill-bullet">▹</span> John the Ripper & Hashcat</li>
+                        <li><span class="skill-bullet">▹</span> Hydra & Gobuster</li>
+                        <li><span class="skill-bullet">▹</span> LinPEAS & WinPEAS</li>
+                        <li><span class="skill-bullet">▹</span> SQLmap & Nikto</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <div class="category-icon">💻</div>
+                    <h3>Technical Skills</h3>
+                    <ul class="skill-list">
+                        <li><span class="skill-bullet">▹</span> Python Scripting</li>
+                        <li><span class="skill-bullet">▹</span> Bash Scripting</li>
+                        <li><span class="skill-bullet">▹</span> Linux Administration</li>
+                        <li><span class="skill-bullet">▹</span> Windows Active Directory</li>
+                        <li><span class="skill-bullet">▹</span> Networking (TCP/IP, DNS, HTTP)</li>
+                        <li><span class="skill-bullet">▹</span> Cryptography Basics</li>
+                        <li><span class="skill-bullet">▹</span> Git & GitHub</li>
+                        <li><span class="skill-bullet">▹</span> VirtualBox & VMware</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="section-number">03.</span> Featured Projects
+                <div class="title-line"></div>
+            </h2>
+            <div class="projects-grid" id="projectsGrid">
+                <!-- Projects will be loaded dynamically from JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="section-number">04.</span> Experience
+                <div class="title-line"></div>
+            </h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">January 2024 - Present</div>
+                        <h3>Cybersecurity Student & Self-Learner</h3>
+                        <h4>TryHackMe & Personal Labs</h4>
+                        <ul class="experience-list">
+                            <li>Completed 100+ TryHackMe rooms covering web exploitation, privilege escalation, and Active Directory attacks</li>
+                            <li>Built personal homelab using VirtualBox with vulnerable machines for penetration testing practice</li>
+                            <li>Developed Python security tools for automation of reconnaissance and enumeration tasks</li>
+                            <li>Participated in CTF competitions, improving problem-solving and exploitation skills</li>
+                            <li>Documented learning journey and created cheat sheets for Linux privilege escalation and web vulnerabilities</li>
+                        </ul>
+                        <div class="tech-tags">
+                            <span class="tag">Kali Linux</span>
+                            <span class="tag">Metasploit</span>
+                            <span class="tag">Burp Suite</span>
+                            <span class="tag">Python</span>
+                            <span class="tag">Nmap</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">September 2023 - December 2023</div>
+                        <h3>Security Research & Tool Development</h3>
+                        <h4>Personal Projects</h4>
+                        <ul class="experience-list">
+                            <li>Created custom Python scripts for network scanning, password cracking automation, and OSINT gathering</li>
+                            <li>Built a comprehensive Linux privilege escalation cheatsheet based on hands-on practice</li>
+                            <li>Studied OWASP Top 10 vulnerabilities and practiced exploitation techniques in controlled environments</li>
+                            <li>Learned basics of malware analysis and reverse engineering using tools like Ghidra and IDA</li>
+                            <li>Contributed to cybersecurity community by sharing knowledge through GitHub repositories and write-ups</li>
+                        </ul>
+                        <div class="tech-tags">
+                            <span class="tag">OSINT</span>
+                            <span class="tag">Wireshark</span>
+                            <span class="tag">Bash</span>
+                            <span class="tag">SQLmap</span>
+                            <span class="tag">Gobuster</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="section-number">05.</span> Education
+                <div class="title-line"></div>
+            </h2>
+            <div class="education-grid">
+                <div class="education-card">
+                    <div class="edu-icon">🎓</div>
+                    <h3>Bachelor of Technology in Computer Science</h3>
+                    <h4>KLE'S SOCIETY</h4>
+                    <div class="edu-details">
+                        <span class="edu-year">2021 - 2025</span>
+                        <span class="edu-gpa">CGPA: 8.5/10</span>
+                    </div>
+                    <p class="edu-description">
+                        Specializing in cybersecurity, network security, and ethical hacking. Actively involved in 
+                        cybersecurity club and CTF competitions. Strong foundation in computer networks, operating systems, 
+                        cryptography, and secure software development.
+                    </p>
+                    <div class="edu-achievements">
+                        <h5>Key Achievements & Certifications:</h5>
+                        <ul>
+                            <li>Preparing for CompTIA Security+ Certification</li>
+                            <li>Preparing for eJPT (eLearnSecurity Junior Penetration Tester)</li>
+                            <li>TryHackMe Top 10% Rank in Cybersecurity Challenges</li>
+                            <li>Led security awareness workshop for college students</li>
+                            <li>Active member of college cybersecurity club</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="section-number">06.</span> Get In Touch
+                <div class="title-line"></div>
+            </h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's Connect!</h3>
+                    <p>
+                        I'm currently looking for new opportunities and my inbox is always open. 
+                        Whether you have a question or just want to say hi, I'll try my best to get back to you!
+                    </p>
+                    <div class="contact-details">
+                        <a href="/cdn-cgi/l/email-protection#ddaea8afbcb7eaeaeab0f3af9dbab0bcb4b1f3beb2b0" class="contact-item">
+                            <div class="contact-icon">📧</div>
+                            <div>
+                                <h4>Email</h4>
+                                <p><span class="__cf_email__" data-cfemail="34474146555e030303591a46745359555d581a575b59">[suraj777m.r@gmail.com]</span></p>
+                            </div>
+                        </a>
+                        <a href="https://www.linkedin.com/in/surajmr01" target="_blank" class="contact-item">
+                            <div class="contact-icon">💼</div>
+                            <div>
+                                <h4>LinkedIn</h4>
+                                <p>linkedin.com/in/surajmr01</p>
+                            </div>
+                        </a>
+                        <a href="https://github.com/jarus10" target="_blank" class="contact-item">
+                            <div class="contact-icon">💻</div>
+                            <div>
+                                <h4>GitHub</h4>
+                                <p>github.com/jarus10</p>
+                            </div>
+                        </a>
+                        <a href="https://tryhackme.com/p/suraj777m.r" target="_blank" class="contact-item">
+                            <div class="contact-icon">🎯</div>
+                            <div>
+                                <h4>TryHackMe</h4>
+                                <p>tryhackme.com/p/suraj777m.r</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" required>
+                        <label for="name">Your Name</label>
+                        <span class="form-error" id="nameError"></span>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" required>
+                        <label for="email">Your Email</label>
+                        <span class="form-error" id="emailError"></span>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" name="subject" required>
+                        <label for="subject">Subject</label>
+                        <span class="form-error" id="subjectError"></span>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                        <label for="message">Your Message</label>
+                        <span class="form-error" id="messageError"></span>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-submit">
+                        <span>Send Message</span>
+                        <div class="btn-glow"></div>
+                    </button>
+                    <div class="form-success" id="formSuccess">Message sent successfully! 🚀</div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2024 MONISH | Cybersecurity Enthusiast | Built with ❤️</p>
+                <div class="social-links">
+                    <a href="https://github.com/jarus10" target="_blank" class="social-link">GitHub</a>
+                    <a href="https://www.linkedin.com/in/surajmr01" target="_blank" class="social-link">LinkedIn</a>
+  
